@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "jsx": "react", // We don't do any React Native so this should be a root setting
+    "module": "commonjs", // CommonJS in the base config, can be overriden per-module
+    "moduleResolution": "node", // Search under node_modules for non-relative imports.    
+    "noEmitOnError": true, // Do not emit files on error
+    "resolveJsonModule": true, // Allows TS to import and understand JSON files
+    "preserveConstEnums": false, // Const Enums are removed when compiled, with their values left in place.
+    "removeComments": false, // Strips comments from emitted files if true.''
+    "allowJs": true, // Process & infer types from .js files.
+    "allowSyntheticDefaultImports": true, // Allow `import foo from 'foo';` style imporst if that module doesn't have a default export.
+    "esModuleInterop": true, // Import non-ES modules as default imports.
+    "lib": ["es2015", "dom"], // libraries to include in compilation
+    "noImplicitAny": false, // Override from base, turning this off with the intent to phase this in.
+    "skipLibCheck": true, // Do not type check imported libraries
+    "target": "es6"
+  },
+  "include": ["src/*"],
+  "exclude": ["node_modules"]
+}
