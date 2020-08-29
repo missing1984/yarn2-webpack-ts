@@ -1,3 +1,41 @@
+"@splunk/prisma-text@lib:prisma/packages/text::locator=%40splunk%2Fprisma-label%40workspace%3Apackages%2Flabel":
+  version: 0.0.0-use.local
+  resolution: "@splunk/prisma-text@lib:prisma/packages/text::locator=%40splunk%2Fprisma-label%40workspace%3Apackages%2Flabel"
+  dependencies:
+    "@babel/core": ^7.8.4
+    "@babel/runtime": ^7.8.4
+    "@rollup/plugin-typescript": ^5.0.2
+    "@splunk/prisma-panel": "lib:prisma/packages/panel"
+    "@splunk/prisma-styles": "lib:prisma/packages/styles"
+    "@splunk/prisma-theming": "lib:prisma/packages/theming"
+    "@splunk/swp-ui-config": "lib:infra/swp-ui-config"
+    "@testing-library/react": ^10.4.7
+    "@types/jest": ^26.0.4
+    "@types/react": ^16.9.35
+    "@types/react-dom": ^16.9.8
+    "@types/styled-components": ^5.1.0
+    "@types/styled-theming": ^2.2.4
+    core-js: ^3.6.5
+    enzyme: ^3.11.0
+    enzyme-adapter-react-16: ^1.15.2
+    jest: ^25.1.0
+    react: ^16.10.0
+    react-dom: ^16.10.0
+    react-is: ^16.10.0
+    rimraf: ^3.0.2
+    rollup: ^2.21.0
+    styled-components: ^5.1.0
+    styled-theming: ^2.2.0
+    tslib: ^2.0.0
+    typescript: ^3.8.3
+  peerDependencies:
+    react: ^16.10.0
+    react-dom: ^16.10.0
+    styled-components: ^5
+    styled-theming: ^2.2.0
+  languageName: unknown
+  linkType: soft
+
 "@splunk/prisma-text@workspace:packages/text":
   version: 0.0.0-use.local
   resolution: "@splunk/prisma-text@workspace:packages/text"
@@ -33,5 +71,31 @@
     react-dom: ^16.10.0
     styled-components: ^5
     styled-theming: ^2.2.0
+  languageName: unknown
+  linkType: soft
+
+"@splunk/prisma-theme-provider@lib:prisma/packages/theme-provider::locator=%40splunk%2Fprisma-theming%40lib%3Aprisma%2Fpackages%2Ftheming%3A%3Alocator%3D%2540splunk%252Fbutton-group%2540workspace%253Apackages%252Fbutton-group":
+  version: 0.0.0-use.local
+  resolution: "@splunk/prisma-theme-provider@lib:prisma/packages/theme-provider::locator=%40splunk%2Fprisma-theming%40lib%3Aprisma%2Fpackages%2Ftheming%3A%3Alocator%3D%2540splunk%252Fbutton-group%2540workspace%253Apackages%252Fbutton-group"
+  dependencies:
+    "@babel/core": ^7.8.4
+    "@babel/runtime": ^7.8.4
+    "@rollup/plugin-typescript": ^5.0.2
+    "@rollup/plugin-url": ^5.0.1
+    "@types/node": ^14.0.23
+    "@types/react": ^16.9.35
+    "@types/react-dom": ^16.9.8
+    "@types/styled-components": ^5.1.1
+    core-js: ^3.6.5
+    react: ^16.10.0
+    react-dom: ^16.10.0
+    rimraf: ^3.0.2
+    rollup: ^2.21.0
+    tslib: ^2.0.0
+    typescript: ^3.8.3
+  peerDependencies:
+    react: ^16.10.0
+    react-dom: ^16.10.0
+    styled-components: ^5
   languageName: unknown
   linkType: soft
