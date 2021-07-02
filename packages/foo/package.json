@@ -1,0 +1,8 @@
+{
+  "name": "foo",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@babel/cli": "^7",
+    "@babel/core": "^7"
+  }
+}
